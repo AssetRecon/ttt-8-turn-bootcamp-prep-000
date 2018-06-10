@@ -50,8 +50,7 @@ def turn(board)
   if valid_move?(board,index)
     move(board,index,value = "X")
   else
-    puts "Please enter 1-9:"
-    
+    turn
   end
   return display_board(board)
   

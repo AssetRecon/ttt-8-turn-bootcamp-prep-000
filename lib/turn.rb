@@ -1,4 +1,4 @@
-def turn
+#def turn
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -43,4 +43,4 @@ def move(array,index,value = "X")
    return array
 end
 
-end #ends turn method
+#end #ends turn method
